@@ -7,6 +7,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 neue: ["Comic Neue", "cursive"],
+                arima: ["Arima Madurai", "cursive"],
             },
             transitionProperty: {
                 height: "height",

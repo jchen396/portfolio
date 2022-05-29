@@ -1,7 +1,7 @@
 const HeroSection = () => {
     return (
-        <div className="text-center h-screen flex flex-col justify-center items-center space-y-14">
-            <div className="flex items-center space-x-20">
+        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black">
+            <div className="flex md:flex-row flex-col items-center space-x-20">
                 <div className="relative">
                     <img
                         className=" object-cover w-40 h-40 rounded-full border-[10px] border-black"

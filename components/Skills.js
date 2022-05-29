@@ -1,10 +1,11 @@
 import Image from "next/image";
 const Skills = () => {
     return (
-        <div className="text-center h-screen flex flex-col justify-center items-center space-y-14 bg-gradient-to-b from-black via-twitch to-gray-100">
-            <div className="text-gray-100 text-5xl font-neue font-medium text-orange-200">
+        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-20 bg-black">
+            <div className="text-5xl font-neue font-medium text-orange-200">
                 Technologies
             </div>
+            <br />
             <div className="grid grid-cols-5 gap-5 rounded p-5 ">
                 <div className="hover:animate-pulse">
                     <Image
@@ -55,7 +56,7 @@ const Skills = () => {
                     <Image
                         src="/icons/java.png"
                         alt="java"
-                        width="64"
+                        width="100"
                         height="64"
                     />
                     <article className="font-neue font-bold text-gray-100">
@@ -70,7 +71,7 @@ const Skills = () => {
                         height="64"
                     />
                     <article className="font-neue font-bold text-gray-100">
-                        Java
+                        C++
                     </article>
                 </div>
                 <div className="hover:animate-pulse">
