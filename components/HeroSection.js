@@ -6,7 +6,7 @@ const HeroSection = () => {
                     <img
                         className=" object-cover w-40 h-40 rounded-full border-[10px] border-black"
                         src="https://avatars.githubusercontent.com/u/50890393?v=4"
-                        alt=""
+                        alt="jackie"
                     />
                     <div className="absolute z-10 p-4 w-0 h-0 bg-green-500 rounded-full border-[10px] border-black right-0 bottom-0"></div>
                 </div>
