@@ -26,7 +26,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className="animate-bounce absolute bottom-5 left-1/2 border-x-[15px] border-x-transparent border-t-[20px] border-t-gray-100"></div>
+            {/* <div className="animate-bounce absolute bottom-5 left-1/2 border-x-[15px] border-x-transparent border-t-[20px] border-t-gray-100"></div> */}
         </div>
     );
 };
