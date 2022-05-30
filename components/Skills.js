@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Skills = () => {
     return (
-        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-20 bg-black">
+        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-20 bg-black relative">
             <div className="relative md:w-1/2 w-11/12 ">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
@@ -181,6 +181,9 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="absolute css-ring1">
+                <div className="relative h-4 w-4 rounded-full bg-blue-200 animate-orbit"></div>
             </div>
         </div>
     );

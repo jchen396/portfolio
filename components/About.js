@@ -1,8 +1,6 @@
-import React from "react";
-
 const About = () => {
     return (
-        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black">
+        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black relative">
             <div className="rounded md:w-1/2 w-11/12 relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
                 <div className="bg-slate-800  p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
@@ -20,6 +18,9 @@ const About = () => {
                         </p>
                     </div>
                 </div>
+            </div>
+            <div className="absolute css-ring">
+                <div className="relative h-4 w-4 rounded-full bg-red-200 animate-orbit"></div>
             </div>
         </div>
     );
