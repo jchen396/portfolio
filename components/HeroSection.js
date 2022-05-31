@@ -4,13 +4,13 @@ const HeroSection = () => {
             <div className="flex md:flex-row flex-col items-center space-x-20">
                 <div className="relative">
                     <img
-                        className=" object-cover w-40 h-40 rounded-full border-[10px] border-black"
+                        className=" object-cover w-64 h-64 rounded-full border-[10px] border-black"
                         src="https://avatars.githubusercontent.com/u/50890393?v=4"
                         alt="jackie"
                     />
-                    <div className="absolute z-10 p-4 w-0 h-0 bg-green-500 rounded-full border-[10px] border-black right-0 bottom-0"></div>
+                    <div className="absolute z-10 p-6 w-0 h-0 bg-green-500 rounded-full border-[10px] border-black right-0 bottom-0"></div>
                 </div>
-                <div className="space-y-5">
+                <div className="space-y-5 relative">
                     <p className="text-xl font-medium text-orange-400">
                         Hello, My name is
                     </p>

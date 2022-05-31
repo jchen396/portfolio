@@ -1,16 +1,16 @@
 import Image from "next/image";
 const Skills = () => {
     return (
-        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-20 bg-black relative">
+        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-20 relative">
             <div className="relative md:w-1/2 w-11/12 ">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
-                <div className="bg-slate-800 rounded p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
+                <div className="bg-slate-800 rounded md:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
                     <div className="md:text-5xl text-3xl font-neue font-medium text-gray-100">
                         Technologies I've worked with
                     </div>
                     <br />
-                    <div className="grid lg:grid-cols-5 grid-cols-3 gap-5 rounded p-5 ">
+                    <div className="grid lg:grid-cols-5 grid-cols-3 md:gap-5 gap-x-10 rounded p-5 ">
                         <div className="hover:animate-pulse">
                             <Image
                                 src="/icons/html.png"

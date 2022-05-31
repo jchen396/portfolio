@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black relative">
+        <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 relative">
             <div className="rounded md:w-1/2 w-11/12 relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
                 <div className="bg-slate-800  p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">

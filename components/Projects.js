@@ -1,10 +1,10 @@
 const Projects = () => {
     return (
-        <div className="snap-start bg-black h-screen flex flex-col justify-center items-center space-y-20 relative">
+        <div className="snap-start h-screen flex flex-col justify-center items-center space-y-20 relative">
             <div className="relative md:w-1/2 w-11/12">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
-                <div className="bg-slate-800 rounded p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
+                <div className="bg-slate-800 rounded md:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
                     <div className="text-gray-100 md:text-5xl text-3xl font-arima font-medium text-center">
                         Projects
                     </div>
