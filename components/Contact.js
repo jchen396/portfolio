@@ -1,7 +1,7 @@
 const Contact = () => {
     return (
         <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14">
-            <h1 className="relative text-slate-100 text-5xl font-arima font-medium ">
+            <h1 className="relative dark:text-slate-100 text-5xl font-arima font-medium text-black">
                 Contact Me
             </h1>
             <div className="md:w-1/3 w-11/12 relative">

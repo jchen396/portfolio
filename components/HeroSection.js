@@ -13,10 +13,10 @@ const HeroSection = () => {
                     <div className="absolute z-10 p-6 w-0 h-0 bg-green-500 rounded-full border-[10px] border-black right-0 bottom-0"></div>
                 </div>
                 <div className="space-y-5 relative">
-                    <p className="text-xl font-medium text-orange-400">
+                    <p className="text-xl font-medium dark:text-orange-400 text-blue-700">
                         Hello, My name is
                     </p>
-                    <h1 className="text-6xl font-mono text-yellow-100">
+                    <h1 className="text-6xl font-mono dark:text-yellow-100 text-blue-900">
                         <Typewriter
                             onInit={(typewriter) => {
                                 typewriter
@@ -26,10 +26,10 @@ const HeroSection = () => {
                             }}
                         />
                     </h1>
-                    <p className="text-xl font-medium text-green-300">
+                    <p className="text-xl font-medium dark:text-green-300 text-red-700">
                         and I'm a
                     </p>
-                    <h2 className="text-3xl font-mono text-green-100">
+                    <h2 className="text-3xl font-mono dark:text-green-100 text-red-900">
                         <Typewriter
                             onInit={(typewriter) => {
                                 typewriter

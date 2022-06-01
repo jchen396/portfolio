@@ -1,7 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-const Particle = () => {
+const Particle = ({ darkMode }) => {
     const particlesInit = async (main) => {
         console.log(main);
         await loadFull(main);
@@ -18,7 +18,7 @@ const Particle = () => {
             options={{
                 background: {
                     color: {
-                        value: "#18191c",
+                        value: darkMode ? "#18191c" : "#ffffff",
                     },
                 },
                 fpsLimit: 60,
@@ -46,7 +46,7 @@ const Particle = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: darkMode ? "#ffffff" : "#000000",
                     },
                     collisions: {
                         enable: true,
@@ -71,11 +71,18 @@ const Particle = () => {
                     opacity: {
                         value: 0.5,
                     },
+                    line_linked: {
+                        enable: darkMode ? false : true,
+                        distance: 150,
+                        color: "#000000",
+                        opacity: 0.4,
+                        width: 1,
+                    },
                     shape: {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 3 },
+                        value: { min: darkMode ? 1 : 8, max: 3 },
                     },
                 },
                 detectRetina: true,
