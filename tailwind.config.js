@@ -31,6 +31,10 @@ module.exports = {
                         opacity: "1",
                     },
                 },
+                fadeIn: {
+                    "0%": { opacity: 0 },
+                    "100%": { opacity: 1 },
+                },
             },
             fontFamily: {
                 neue: ["Comic Neue", "cursive"],
@@ -49,9 +53,13 @@ module.exports = {
                     "linear-gradient(to bottom, #5c16c5 50%, #18191c 50%);",
             },
             animation: {
+                fadeIn: "fadeIn 1s ease-in forwards",
                 orbit: "orbit 3s infinite linear",
             },
         },
+    },
+    variants: {
+        animation: ["motion-safe"],
     },
     plugins: [],
 };

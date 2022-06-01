@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 .css-ring{
-    transform: rotateY(60deg) rotateX(-60deg);
+    transform: rotateY(55deg) rotateX(-55deg);
      transform-style: preserve-3d;
 
 }

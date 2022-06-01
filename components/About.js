@@ -1,26 +1,41 @@
+import { useInView } from "react-intersection-observer";
+
 const About = () => {
+    const { ref: myRef, inView: myElementIsVisible } = useInView();
     return (
         <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 relative">
-            <div className="rounded md:w-1/2 w-11/12 relative">
+            <div className="rounded lg  lg:w-1/2 w-11/12 relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
                 <div className="bg-slate-800  p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
                     <div>
                         <h1 className="text-gray-100 text-5xl font-neue font-medium">
-                            About Me
+                            Who am I?
                         </h1>
-                        <br />
-                        <p className="text-center text-slate-300">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Maiores eos minus debitis aut odio,
-                            voluptatibus est maxime adipisci mollitia,
-                            voluptates expedita ullam, id facere excepturi
-                            sapiente porro commodi cumque eaque!
+                        <br className="my-5" />
+                        <p
+                            ref={myRef}
+                            className={`text-slate-300 tracking-wide leading-7 ${
+                                myElementIsVisible
+                                    ? "motion-safe:animate-fadeIn"
+                                    : "opacity-0"
+                            }`}
+                        >
+                            Hi, my name is Jackie Chen. I enjoy learning new
+                            technologies and bringing my ideas to life in the
+                            browser. I began my web development journey by
+                            learning the basics of HTML, CSS, and JavaScript in
+                            2019. Since then, I have taken the opportunity to
+                            improve my skills as a web developer by exploring
+                            the MERN stack. To optimize my applications, I have
+                            knowledge of Algorithms and Data Structures. <br />
+                            My goal is to use my skills to solve everyday
+                            problems and make people's lives easier.
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="absolute css-ring">
-                <div className="relative h-4 w-4 rounded-full bg-red-200 animate-orbit"></div>
+            <div className="lg:block hidden absolute css-ring">
+                <div className="opacity-0 md:opacity-1 relative h-4 w-4 rounded-full bg-red-200 animate-orbit"></div>
             </div>
         </div>
     );
