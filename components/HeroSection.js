@@ -1,3 +1,5 @@
+import Typewriter from "typewriter-effect";
+
 const HeroSection = () => {
     return (
         <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black">
@@ -15,13 +17,27 @@ const HeroSection = () => {
                         Hello, My name is
                     </p>
                     <h1 className="text-6xl font-mono text-yellow-100">
-                        Jackie Chen
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("Jackie Chen")
+                                    .pauseFor(2500)
+                                    .start();
+                            }}
+                        />
                     </h1>
                     <p className="text-xl font-medium text-green-300">
                         and I'm a
                     </p>
                     <h2 className="text-3xl font-mono text-green-100">
-                        Front-end Developer
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("Front-end Developer")
+                                    .pauseFor(2500)
+                                    .start();
+                            }}
+                        />
                     </h2>
                 </div>
             </div>

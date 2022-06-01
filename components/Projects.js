@@ -23,21 +23,27 @@ const Projects = () => {
                     >
                         <div>
                             <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/khm.png')] bg-cover opacity-0.2 hover:bg-center "></div>
-                            <h3 className="font-arima text-xl">
+                            <h3 className="text-slate-100 font-arima text-xl">
                                 Korean Hangman
                             </h3>
                         </div>
                         <div>
                             <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-cover opacity-0.2 "></div>
-                            <h3 className="font-arima text-xl">League-info</h3>
+                            <h3 className="text-slate-100 font-arima text-xl">
+                                League-info
+                            </h3>
                         </div>
                         <div>
                             <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-cover opacity-0.2 "></div>
-                            <h3 className="font-arima text-xl">Birdle-Bot</h3>
+                            <h3 className="text-slate-100 font-arima text-xl">
+                                Birdle-Bot
+                            </h3>
                         </div>
                         <div>
                             <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-cover opacity-0.2 "></div>
-                            <h3 className="font-arima text-xl">E-commerce</h3>
+                            <h3 className="text-slate-100 font-arima text-xl">
+                                E-commerce
+                            </h3>
                         </div>
                     </div>
                 </div>
