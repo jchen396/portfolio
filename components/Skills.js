@@ -8,8 +8,8 @@ const Skills = () => {
             <div className="relative lg:w-1/2 w-11/12 ">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
-                <div className="bg-slate-800 rounded lg:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
-                    <div className="md:text-5xl text-3xl font-neue font-medium text-gray-100">
+                <div className="dark:bg-slate-800 bg-slate-100 rounded lg:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
+                    <div className="md:text-5xl text-3xl font-neue font-medium dark:text-gray-100 text-orange-800">
                         Technologies I've worked with
                     </div>
                     <br />
@@ -28,7 +28,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 HTML
                             </article>
                         </div>
@@ -39,7 +39,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 CSS
                             </article>
                         </div>
@@ -51,7 +51,7 @@ const Skills = () => {
                                 height="64"
                             />
 
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 Javascript
                             </article>
                         </div>
@@ -62,7 +62,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 Python
                             </article>
                         </div>
@@ -73,7 +73,7 @@ const Skills = () => {
                                 width="100"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 Java
                             </article>
                         </div>
@@ -84,7 +84,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 C++
                             </article>
                         </div>
@@ -95,7 +95,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 NodeJS
                             </article>
                         </div>
@@ -106,7 +106,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 ExpressJS
                             </article>
                         </div>
@@ -117,7 +117,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 ReactJS
                             </article>
                         </div>
@@ -128,7 +128,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 Redux
                             </article>
                         </div>
@@ -139,7 +139,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 MongoDB
                             </article>
                         </div>
@@ -150,7 +150,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 Sass
                             </article>
                         </div>
@@ -161,7 +161,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 TailwindCSS
                             </article>
                         </div>
@@ -173,7 +173,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 NextJS
                             </article>
                         </div>
@@ -185,7 +185,7 @@ const Skills = () => {
                                 width="64"
                                 height="64"
                             />
-                            <article className="font-neue font-bold text-gray-100">
+                            <article className="font-neue font-bold dark:text-gray-100 text-orange-800">
                                 Git
                             </article>
                         </div>
@@ -193,7 +193,7 @@ const Skills = () => {
                 </div>
             </div>
             <div className="lg:block hidden absolute css-ring1">
-                <div className="relative h-4 w-4 rounded-full bg-blue-200 animate-orbit"></div>
+                <div className="relative h-4 w-4 rounded-full dark:bg-blue-200 bg-black animate-orbit"></div>
             </div>
         </div>
     );
