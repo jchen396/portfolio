@@ -1,4 +1,6 @@
+import { ArrowCircleRight, GitHub, ReadMore } from "@mui/icons-material";
 import { useInView } from "react-intersection-observer";
+import Link from "next/link";
 
 const Projects = () => {
     const { ref: myRef, inView: myElementIsVisible } = useInView();
@@ -22,25 +24,52 @@ const Projects = () => {
                         }`}
                     >
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/khm.png')] bg-cover opacity-0.2 hover:bg-center "></div>
+                            <div className="  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/khm.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                                <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+                                    <ReadMore className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    <Link href="https://github.com/jchen396/korean-hangman">
+                                        <GitHub className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                    <Link href="https://jchen396.github.io/korean-hangman/index.html">
+                                        <ArrowCircleRight className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                </div>
+                            </div>
                             <h3 className="text-slate-100 font-arima text-xl">
                                 Korean Hangman
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-cover opacity-0.2 "></div>
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/linfo.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                                <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+                                    <ReadMore className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    <Link href="https://github.com/jchen396/league-info">
+                                        <GitHub className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                    <Link href="https://jchen396.github.io/league-info/">
+                                        <ArrowCircleRight className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                </div>
+                            </div>
                             <h3 className="text-slate-100 font-arima text-xl">
                                 League-info
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-cover opacity-0.2 "></div>
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/wdlbot.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                                <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+                                    <ReadMore className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    <Link href="https://github.com/jchen396/birdle_bot">
+                                        <GitHub className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                </div>
+                            </div>
                             <h3 className="text-slate-100 font-arima text-xl">
                                 Birdle-Bot
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl hover:bg-gray-300 transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-cover opacity-0.2 "></div>
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 border-2 border-gray-900 hover:border-blue-500 bg-cover bg-gray-100 bg-opacity-50 "></div>
                             <h3 className="text-slate-100 font-arima text-xl">
                                 E-commerce
                             </h3>
