@@ -69,7 +69,17 @@ const Projects = () => {
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 border-2 border-gray-900 hover:border-blue-500 bg-cover bg-gray-100 bg-opacity-50 "></div>
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                                <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+                                    <ReadMore className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    <Link href="https://github.com/jchen396/league-info">
+                                        <GitHub className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                    <Link href="https://jchen396.github.io/league-info/">
+                                        <ArrowCircleRight className="cursor-pointer w-10 h-10 hover:opacity-50" />
+                                    </Link>
+                                </div>
+                            </div>
                             <h3 className="dark:text-slate-100 text-orange-800 font-arima text-xl">
                                 E-commerce
                             </h3>

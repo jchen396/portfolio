@@ -14,20 +14,20 @@ const About = () => {
                         <br className="my-5" />
                         <p
                             ref={myRef}
-                            className={`dark:text-slate-300 text-orange-800 tracking-wide leading-7 ${
+                            className={`dark:text-slate-300 text-orange-800 tracking-wide leading-7 text-xl ${
                                 myElementIsVisible
                                     ? "motion-safe:animate-fadeIn"
                                     : "opacity-0"
                             }`}
                         >
-                            Hi, my name is Jackie Chen. I enjoy learning new
-                            technologies and bringing my ideas to life in the
-                            browser. I began my web development journey by
-                            learning the basics of HTML, CSS, and JavaScript in
-                            2019. Since then, I have taken the opportunity to
-                            improve my skills as a web developer by exploring
-                            the MERN stack. To optimize my applications, I have
-                            knowledge of Algorithms and Data Structures. <br />
+                            I enjoy learning new technologies and bringing my
+                            ideas to life in the browser. I began my web
+                            development journey by learning the basics of HTML,
+                            CSS, and JavaScript in 2019. Since then, I have
+                            taken the opportunity to improve my skills as a web
+                            developer by exploring the MERN stack. To optimize
+                            my applications, I have knowledge of Algorithms and
+                            Data Structures. <br />
                             My goal is to use my skills to solve everyday
                             problems and make people's lives easier.
                         </p>
