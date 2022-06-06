@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
                 <div className="dark:bg-slate-800 bg-slate-100 rounded lg:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
-                    <div className="dark:text-gray-100 text-orange-800 md:text-5xl text-3xl font-arima font-medium text-center">
+                    <div className="dark:text-gray-100 text-orange-800 text-5xl font-arima font-medium text-center mb-6">
                         Projects I've built
                     </div>
                     <br />
@@ -46,7 +46,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <h3 className="dark:text-slate-100 text-orange-800 font-arima text-xl">
-                                Korean Hangman
+                                koreanHangman
                             </h3>
                         </div>
                         <div>
@@ -68,7 +68,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <h3 className="dark:text-slate-100 text-orange-800 font-arima text-xl">
-                                League-info
+                                league-info
                             </h3>
                         </div>
                         <div>
@@ -87,7 +87,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <h3 className="dark:text-slate-100 text-orange-800 font-arima text-xl">
-                                Birdle-Bot
+                                birdle-bot
                             </h3>
                         </div>
                         <div>
@@ -109,7 +109,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <h3 className="dark:text-slate-100 text-orange-800 font-arima text-xl">
-                                E-commerce
+                                e-commerce
                             </h3>
                         </div>
                     </div>

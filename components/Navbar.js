@@ -10,16 +10,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     };
 
     return (
-        <div className="w-full h-12 md:relative bg-transparent top-16">
+        <div className="w-full h-12 relative bg-transparent top-16">
             <Link href="https://github.com/jchen396">
-                <GitHubIcon className="cursor-pointer items-center w-12 h-12 m-2 dark:bg-slate-100 rounded-full" />
+                <GitHubIcon className="cursor-pointer items-center w-12 h-12 m-2 dark:bg-slate-100 rounded-full hover:opacity-30" />
             </Link>
             <Link href="https://www.linkedin.com/in/jackie-chen-102466240/">
-                <LinkedIn className="cursor-pointer items-center w-12 h-12 m-2 dark:bg-slate-100 rounded" />
+                <LinkedIn className="cursor-pointer items-center w-12 h-12 m-2 dark:bg-slate-100 rounded hover:opacity-30" />
             </Link>
             <button
                 onClick={clickHandler}
-                className="rounded-full w-12 h-12 dark:bg-slate-100 border-2 border-black dark:hover:bg-slate-400 hover:bg-slate-400"
+                className="rounded-full w-12 h-12 dark:bg-slate-100 border-2 border-black hover:opacity-30"
             >
                 {darkMode ? <LightModeIcon /> : <DarkModeIcon />}
             </button>

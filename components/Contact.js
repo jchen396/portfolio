@@ -79,7 +79,7 @@ const Contact = () => {
     return (
         <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14">
             <h1 className="relative dark:text-gray-100 text-5xl font-arima font-medium text-orange-800">
-                Contact Me
+                Leave a message
             </h1>
             <div className="md:w-1/3 w-11/12 relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>

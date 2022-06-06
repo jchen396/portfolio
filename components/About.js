@@ -6,15 +6,15 @@ const About = () => {
         <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 relative">
             <div className="rounded lg  lg:w-1/2 w-11/12 relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
-                <div className="dark:bg-slate-800 bg-slate-100  p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
+                <div className="dark:bg-slate-800 bg-slate-100  sm:p-20 p-5 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
                     <div>
-                        <h1 className="dark:text-gray-100 text-orange-800 text-5xl font-neue font-medium">
+                        <h1 className="dark:text-gray-100 text-orange-800 text-5xl sm:text-2xl font-neue font-medium">
                             Who am I?
                         </h1>
                         <br className="my-5" />
                         <p
                             ref={myRef}
-                            className={`dark:text-slate-300 text-orange-800 tracking-wide leading-7 text-xl ${
+                            className={`dark:text-slate-300 text-orange-800 tracking-wide leading-7 sm:text-xl text-lg px-0 ${
                                 myElementIsVisible
                                     ? "motion-safe:animate-fadeIn"
                                     : "opacity-0"

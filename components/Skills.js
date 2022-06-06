@@ -9,7 +9,7 @@ const Skills = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
                 <div className="dark:bg-slate-800 bg-slate-100 rounded lg:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
-                    <div className="md:text-5xl text-3xl font-neue font-medium dark:text-gray-100 text-orange-800">
+                    <div className="text-5xl font-neue font-medium dark:text-gray-100 text-orange-800">
                         Technologies I've worked with
                     </div>
                     <br />
