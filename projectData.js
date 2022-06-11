@@ -27,7 +27,7 @@ export const projectData = [
         ],
     },
     {
-        name: "e-commerce",
+        name: "CHANCE e-commerce",
         description: [
             "< An e-commerce web application built using ReactJS, Redux, MongoDB, and ExpressJS. >",
             "- Created a MongoDB collection to manage user datas using ExpressJS by HTTP requests",

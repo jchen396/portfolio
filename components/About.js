@@ -8,7 +8,7 @@ const About = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
                 <div className="dark:bg-slate-800 bg-slate-100  sm:p-20 p-5 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
                     <div>
-                        <h1 className="dark:text-gray-100 text-orange-800 text-5xl sm:text-2xl font-neue font-medium">
+                        <h1 className="dark:text-gray-100 text-orange-800 text-5xl font-neue font-medium">
                             Who am I?
                         </h1>
                         <br className="my-5" />

@@ -81,7 +81,7 @@ const Contact = () => {
             <h1 className="relative dark:text-gray-100 text-5xl font-arima font-medium text-orange-800">
                 Leave a message
             </h1>
-            <div className="md:w-1/3 w-11/12 relative">
+            <div className="lg:w-1/3 md:w-1/2 w-4/5 relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
                 <form
                     className="flex flex-col dark:bg-slate-800 bg-slate-100 rounded p-20 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative space-y-3"
