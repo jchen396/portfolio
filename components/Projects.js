@@ -28,7 +28,7 @@ const Projects = () => {
                         }`}
                     >
                         <div>
-                            <div className="  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/khm.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                            <div className="  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/khm.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
                                 <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
                                     <ReadMore
                                         className="cursor-pointer w-10 h-10 hover:opacity-50"
@@ -50,7 +50,7 @@ const Projects = () => {
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/linfo.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/linfo.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
                                 <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
                                     <ReadMore
                                         className="cursor-pointer w-10 h-10 hover:opacity-50"
@@ -72,7 +72,7 @@ const Projects = () => {
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/wdlbot.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/wdlbot.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
                                 <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
                                     <ReadMore
                                         className="cursor-pointer w-10 h-10 hover:opacity-50"
@@ -91,7 +91,7 @@ const Projects = () => {
                             </h3>
                         </div>
                         <div>
-                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('../public/pictures/chance-ecommerce.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
+                            <div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/chance-ecommerce.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
                                 <div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
                                     <ReadMore
                                         className="cursor-pointer w-10 h-10 hover:opacity-50"
