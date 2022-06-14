@@ -100,10 +100,10 @@ const Projects = () => {
                                             setToggleInfo(true);
                                         }}
                                     />
-                                    <Link href="https://github.com/jchen396/league-info">
+                                    <Link href="https://github.com/jchen396/e-commerce-app">
                                         <GitHub className="cursor-pointer w-10 h-10 hover:opacity-50" />
                                     </Link>
-                                    <Link href="https://jchen396.github.io/league-info/">
+                                    <Link href="https://jchen396.github.io/e-commerce-app/">
                                         <ArrowCircleRight className="cursor-pointer w-10 h-10 hover:opacity-50" />
                                     </Link>
                                 </div>

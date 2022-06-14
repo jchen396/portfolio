@@ -35,7 +35,6 @@ const Contact = () => {
         }
 
         setErrors({ ...tempErrors });
-        console.log("errors", errors);
         return isValid;
     };
 
