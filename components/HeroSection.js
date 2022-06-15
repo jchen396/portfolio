@@ -1,13 +1,19 @@
+import { useInView } from "react-intersection-observer";
 import Typewriter from "typewriter-effect";
+import Image from "next/image";
 
 const HeroSection = () => {
+    const { ref: myRef, inView: myElementIsVisible } = useInView();
+
     return (
         <div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black">
             <div className="flex md:flex-row flex-col items-center space-x-20">
                 <div className="relative">
-                    <img
-                        className=" object-cover w-64 h-64 rounded-full border-[10px] border-black"
-                        src="https://avatars.githubusercontent.com/u/50890393?v=4"
+                    <Image
+                        width={256}
+                        height={256}
+                        className="object-cover rounded-full border-[10px] border-black"
+                        src="/icons/IMG_0815.jpg"
                         alt="jackie"
                     />
                     <div className="absolute z-10 p-6 w-0 h-0 bg-green-500 rounded-full border-[10px] border-black right-0 bottom-0"></div>
@@ -41,8 +47,14 @@ const HeroSection = () => {
                     </h2>
                 </div>
             </div>
-
-            {/* <div className="animate-bounce absolute bottom-5 left-1/2 border-x-[15px] border-x-transparent border-t-[20px] border-t-gray-100"></div> */}
+            <div
+                ref={myRef}
+                className={`${
+                    myElementIsVisible
+                        ? "animate-bounce relative mt-24 border-x-[15px] border-x-transparent border-t-[20px] border-t-gray-100"
+                        : "opacity-0"
+                }`}
+            ></div>
         </div>
     );
 };
