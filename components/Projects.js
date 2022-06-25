@@ -18,7 +18,7 @@ const Projects = () => {
 				<div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 
 				<div className="dark:bg-slate-800 bg-slate-100 rounded lg:p-20 p-10 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">
-					<div className="dark:text-gray-100 text-orange-800 text-5xl font-arima font-medium text-center mb-6">
+					<div className="dark:text-gray-100 text-orange-800 md:text-5xl text-4xl font-arima font-medium text-center mb-6">
 						Projects I've built
 					</div>
 					<br />
@@ -31,12 +31,12 @@ const Projects = () => {
 						}`}
 					>
 						<div>
-							<div className="  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/khm.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
-								<div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+							<div className=" w-full h-24 m-3 border-gray-600 rounded-3xl  md:transition-all duration-300 ease-linear md:hover:rounded-xl md:h-48 bg-[url('/pictures/khm.png')] border-2 border-gray-900 md:hover:border-blue-500 bg-cover md:hover:bg-center flex justify-center items-center group">
+								<div className="bg-slate-100 rounded-full sm:w-40 w-2/3 space-x-2 md:group-hover:block block md:hidden flex justify-center px-2">
 									<ReadMore
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("koreanHangman");
+											setReadMoreText("Korean Hangman");
 											setToggleInfo(true);
 										}}
 									/>
@@ -46,7 +46,7 @@ const Projects = () => {
 									<YouTubeIcon
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("koreanHangman");
+											setReadMoreText("Korean Hangman");
 											setToggleVideo(true);
 										}}
 									/>
@@ -57,12 +57,12 @@ const Projects = () => {
 							</h3>
 						</div>
 						<div>
-							<div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/linfo.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
-								<div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+							<div className=" w-full h-24 m-3 border-gray-600 rounded-3xl  md:transition-all duration-300 ease-linear md:hover:rounded-xl md:h-48 bg-[url('/pictures/linfo.png')] border-2 border-gray-900 md:hover:border-blue-500 bg-cover md:hover:bg-center flex justify-center items-center group">
+								<div className="bg-slate-100 rounded-full sm:w-40 w-2/3  space-x-2 md:group-hover:block block md:hidden flex justify-center px-2">
 									<ReadMore
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("league-info");
+											setReadMoreText("League Info");
 											setToggleInfo(true);
 										}}
 									/>
@@ -72,7 +72,7 @@ const Projects = () => {
 									<YouTubeIcon
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("league-info");
+											setReadMoreText("League Info");
 											setToggleVideo(true);
 										}}
 									/>
@@ -83,12 +83,12 @@ const Projects = () => {
 							</h3>
 						</div>
 						<div>
-							<div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/wdlbot.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
-								<div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+							<div className=" w-full h-24 m-3 border-gray-600 rounded-3xl  md:transition-all duration-300 ease-linear md:hover:rounded-xl md:h-48 bg-[url('/pictures/wdlbot.png')] border-2 border-gray-900 md:hover:border-blue-500 bg-cover md:hover:bg-center flex justify-center items-center group">
+								<div className="bg-slate-100 rounded-full sm:w-40 w-2/3  space-x-2 md:group-hover:block block md:hidden flex justify-center px-2">
 									<ReadMore
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("birdle-bot");
+											setReadMoreText("Birdle Bot");
 											setToggleInfo(true);
 										}}
 									/>
@@ -98,7 +98,7 @@ const Projects = () => {
 									<YouTubeIcon
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("birdle-bot");
+											setReadMoreText("Birdle Bot");
 											setToggleVideo(true);
 										}}
 									/>
@@ -109,12 +109,12 @@ const Projects = () => {
 							</h3>
 						</div>
 						<div>
-							<div className="cursor-pointer  p-8 px-20 m-3 border-gray-600 rounded-3xl  transition-all duration-300 ease-linear hover:rounded-xl md:h-48 bg-[url('/pictures/chance-ecommerce.png')] border-2 border-gray-900 hover:border-blue-500 bg-cover hover:bg-center flex justify-center items-center group">
-								<div className="bg-slate-100 rounded-full w-64 space-x-2 hidden group-hover:block">
+							<div className=" w-full h-24 m-3 border-gray-600 rounded-3xl  md:transition-all duration-300 ease-linear md:hover:rounded-xl md:h-48 bg-[url('/pictures/chance-ecommerce.png')] border-2 border-gray-900 md:hover:border-blue-500 bg-cover md:hover:bg-center flex justify-center items-center group">
+								<div className="bg-slate-100 rounded-full sm:w-40 w-2/3  space-x-2 md:group-hover:block block md:hidden flex justify-center px-2">
 									<ReadMore
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("e-commerce");
+											setReadMoreText("CHANCE");
 											setToggleInfo(true);
 										}}
 									/>
@@ -124,7 +124,7 @@ const Projects = () => {
 									<YouTubeIcon
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("e-commerce");
+											setReadMoreText("CHANCE");
 											setToggleVideo(true);
 										}}
 									/>

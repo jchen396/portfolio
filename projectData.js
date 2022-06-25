@@ -1,6 +1,6 @@
 export const projectData = [
 	{
-		name: "koreanHangman",
+		name: "Korean Hangman",
 		description: [
 			"< A website built using vanilla JavaScript, HTML, CSS, and NodeJS. >",
 			"- Used SVG animation to display the word and progress of the hangman round.",
@@ -10,7 +10,7 @@ export const projectData = [
 		videoId: "M-k8FDJTrHM",
 	},
 	{
-		name: "league-info",
+		name: "League Info",
 		description: [
 			"< A web application built using ReactJS and Sass. >",
 			"- Fetches Riot API data by using axios asynchronously",
@@ -20,7 +20,7 @@ export const projectData = [
 		videoId: "F59IDtGrroA",
 	},
 	{
-		name: "birdle-bot",
+		name: "Birdle Bot",
 		description: [
 			"< A Discord bot built using NodeJS and Discord API. >",
 			"- Inspired by the web-based word game, Wordle",
@@ -30,7 +30,7 @@ export const projectData = [
 		videoId: "oAgaWC2LyEw",
 	},
 	{
-		name: "e-commerce",
+		name: "CHANCE",
 		description: [
 			"< An e-commerce web application built using ReactJS, Redux, MongoDB, and ExpressJS. >",
 			"- Created a MongoDB collection to manage user datas using ExpressJS by HTTP requests",
