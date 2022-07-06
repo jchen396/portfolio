@@ -31,6 +31,13 @@ const About = () => {
 							My goal is to use my skills to solve everyday
 							problems and make people's lives easier.
 						</p>
+						<br className="my-5" />
+						<a
+							className="text-blue-400 text-2xl"
+							href="https://drive.google.com/file/d/1-c8x-vASS-1jkAGKtwwQAnqv-SQPDhmL/view"
+						>
+							Check out my Resume!
+						</a>
 					</div>
 				</div>
 			</div>
