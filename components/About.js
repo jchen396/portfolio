@@ -33,10 +33,12 @@ const About = () => {
 						</p>
 						<br className="my-5" />
 						<a
-							className="text-blue-400 text-2xl"
-							href="https://drive.google.com/file/d/1-c8x-vASS-1jkAGKtwwQAnqv-SQPDhmL/view"
+							className="text-gray-200 text-2xl"
+							href="https://drive.google.com/file/d/1dZ5-x6zbOJYKG43VlwytchedLNBOHY2v/view"
 						>
-							Check out my Resume!
+							<button className="p-3 bg-rounded bg-slate-800 border-2 border-red-200 hover:bg-slate-600">
+								View Resume
+							</button>
 						</a>
 					</div>
 				</div>
