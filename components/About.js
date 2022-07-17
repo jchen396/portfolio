@@ -34,7 +34,7 @@ const About = () => {
 						<br className="my-5" />
 						<a
 							className="text-gray-200 text-2xl"
-							href="https://drive.google.com/file/d/1dTBhMFMvs8eI4fVo2xWCi0Dd7L2VHQLk/view?usp=sharing"
+							href="https://drive.google.com/file/d/1lnoIwmh8rXcVYJ_asI_LWaL97RH2xLYn/view?usp=sharing"
 						>
 							<button className="p-3 bg-rounded bg-slate-800 border-2 border-red-200 hover:bg-slate-600">
 								View Resume
