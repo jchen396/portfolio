@@ -23,7 +23,7 @@ const Skills = () => {
 					>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/html.png"
+								src="/icons/html.webp"
 								alt="html"
 								width="64"
 								height="64"
@@ -34,7 +34,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/css.png"
+								src="/icons/css.webp"
 								alt="css"
 								width="64"
 								height="64"
@@ -45,7 +45,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/javascript.png"
+								src="/icons/javascript.webp"
 								alt="javascript"
 								width="64"
 								height="64"
@@ -57,7 +57,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/python.png"
+								src="/icons/python.webp"
 								alt="python"
 								width="64"
 								height="64"
@@ -68,7 +68,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/java.png"
+								src="/icons/java.webp"
 								alt="java"
 								width="100"
 								height="64"
@@ -79,7 +79,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/cpp.png"
+								src="/icons/cpp.webp"
 								alt="cplusplus"
 								width="64"
 								height="64"
@@ -90,7 +90,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/nodejs.png"
+								src="/icons/nodejs.webp"
 								alt="nodejs"
 								width="64"
 								height="64"
@@ -101,7 +101,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/express.png"
+								src="/icons/express.webp"
 								alt="express"
 								width="64"
 								height="64"
@@ -112,7 +112,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/react.png"
+								src="/icons/react.webp"
 								alt="react"
 								width="64"
 								height="64"
@@ -123,7 +123,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/redux.png"
+								src="/icons/redux.webp"
 								alt="redux"
 								width="64"
 								height="64"
@@ -134,7 +134,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/MongoDB.png"
+								src="/icons/MongoDB.webp"
 								alt="mongodb"
 								width="64"
 								height="64"
@@ -145,7 +145,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/sass.png"
+								src="/icons/sass.webp"
 								alt="sass"
 								width="64"
 								height="64"
@@ -156,7 +156,7 @@ const Skills = () => {
 						</div>
 						<div className="hover:animate-pulse">
 							<Image
-								src="/icons/tailwindcss.png"
+								src="/icons/tailwindcss.webp"
 								alt="tailwind"
 								width="64"
 								height="64"
@@ -168,7 +168,7 @@ const Skills = () => {
 						<div className="hover:animate-pulse">
 							<Image
 								className="bg-gray-100 rounded-full"
-								src="/icons/nextjs.png"
+								src="/icons/nextjs.webp"
 								alt="nextjs"
 								width="64"
 								height="64"
@@ -180,7 +180,7 @@ const Skills = () => {
 						<div className="hover:animate-pulse">
 							<Image
 								className="bg-gray-100 rounded-full"
-								src="/icons/git.png"
+								src="/icons/git.webp"
 								alt="nextjs"
 								width="64"
 								height="64"
