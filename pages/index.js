@@ -27,6 +27,11 @@ const Home = () => {
 					name="viewport"
 					content="initial-scale=1.0, width=device-width"
 				/>
+				<meta
+					property="og:title"
+					content="Jackie Chen - Software Developer"
+					key="title"
+				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Particle darkMode={darkMode} />
