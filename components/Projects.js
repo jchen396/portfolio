@@ -31,29 +31,29 @@ const Projects = () => {
 						}`}
 					>
 						<div>
-							<div className=" w-full h-24 m-3 border-gray-600 rounded-3xl  md:transition-all duration-300 ease-linear md:hover:rounded-xl md:h-48 bg-[url('/pictures/khm.webp')] border-2 border-gray-900 md:hover:border-blue-500 bg-cover md:hover:bg-center flex justify-center items-center group">
+							<div className=" w-full h-24 m-3 border-gray-600 rounded-3xl  md:transition-all duration-300 ease-linear md:hover:rounded-xl md:h-48 bg-[url('/pictures/gramana.webp')] border-2 border-gray-900 md:hover:border-blue-500 bg-cover md:hover:bg-center flex justify-center items-center group">
 								<div className="bg-slate-100 rounded-full sm:w-40 w-2/3 space-x-2 md:group-hover:block block md:hidden flex justify-center px-2">
 									<ReadMore
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("Korean Hangman");
+											setReadMoreText("GRAMANA");
 											setToggleInfo(true);
 										}}
 									/>
-									<Link href="https://github.com/jchen396/korean-hangman">
+									<Link href="https://github.com/jchen396/GRAMANA">
 										<GitHub className="cursor-pointer w-10 h-10 hover:opacity-50" />
 									</Link>
 									<YouTubeIcon
 										className="cursor-pointer w-10 h-10 hover:opacity-50"
 										onClick={() => {
-											setReadMoreText("Korean Hangman");
+											setReadMoreText("GRAMANA");
 											setToggleVideo(true);
 										}}
 									/>
 								</div>
 							</div>
 							<h3 className="dark:text-slate-100 text-orange-800 font-arima text-xl">
-								Korean Hangman
+								GRAMANA
 							</h3>
 						</div>
 						<div>

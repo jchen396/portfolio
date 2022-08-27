@@ -39,4 +39,14 @@ export const projectData = [
 		],
 		videoId: "Mgb6Zt0Rcl0",
 	},
+	{
+		name: "GRAMANA",
+		description: [
+			"<A Free Multiplayer Browser Word Game build using NextJS, SocketIO, ExpressJS>",
+			"- Utilized web sockets to emit data to other existing users in the room",
+			"- Took advantage of TypeScript for easier debugging when working with different data type for easier debugging process",
+			"- Used TailwindCSS for fast designs integration with its existing classes",
+		],
+		videoId: "9xmp575U5SE",
+	},
 ];
