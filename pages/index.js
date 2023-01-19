@@ -37,7 +37,7 @@ const Home = () => {
 			</Head>
 			<Particle darkMode={darkMode} />
 			<Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-			<LeftSideNav />
+			<LeftSideNav darkMode={darkMode} />
 			<HeroSection />
 			<About />
 			<Projects />

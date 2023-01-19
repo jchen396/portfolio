@@ -32,25 +32,38 @@
     padding-bottom: 56.25%; 
     height: 0;
   }
-  .iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-  .navbar-transition{
-    --c: no-repeat linear-gradient(#ffffff 0 0);
-    background: 
-      var(--c)  calc(-101% + var(--p,0%)) 100%,
-      var(--c)  calc( 201% - var(--p,0%)) 0;
-    background-size: 50.1% var(--p,.08em);
-    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
-  }
+.dark-navbar-transition{
+  --c: no-repeat linear-gradient(#ffffff 0 0);
+  background: 
+    var(--c)  calc(-101% + var(--p,0%)) 100%,
+    var(--c)  calc( 201% - var(--p,0%)) 0;
+  background-size: 50.1% var(--p,.08em);
+  transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+}
 
-  .navbar-transition:hover{
-    --p: 101%;
-    --t: 0.3s;
-    color: #fff;
-  }
+.dark-navbar-transition:hover{
+  --p: 101%;
+  --t: 0.3s;
+  color: #fff;
+}
+
+.light-navbar-transition{
+  background: 
+    linear-gradient(#000000 0 0) no-repeat
+      calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
+  transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+}
+
+.light-navbar-transition:hover{
+  --p: 100%;
+  --t: .3s;
+  color: rgb(0, 0, 0);
+}
