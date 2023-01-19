@@ -8,6 +8,7 @@ import Skills from "../components/Skills";
 import HeroSection from "../components/HeroSection";
 import About from "../components/About";
 import Particle from "../components/Particles";
+import LeftSideNav from "../components/LeftSideNav";
 
 const Home = () => {
 	const [darkMode, setDarkMode] = useState(true);
@@ -36,6 +37,7 @@ const Home = () => {
 			</Head>
 			<Particle darkMode={darkMode} />
 			<Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+			<LeftSideNav />
 			<HeroSection />
 			<About />
 			<Projects />
