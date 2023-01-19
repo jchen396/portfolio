@@ -39,3 +39,18 @@
     width: 100%;
     height: 100%;
   }
+
+  .navbar-transition{
+    --c: no-repeat linear-gradient(#ffffff 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100%,
+      var(--c)  calc( 201% - var(--p,0%)) 0;
+    background-size: 50.1% var(--p,.08em);
+    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+  }
+
+  .navbar-transition:hover{
+    --p: 101%;
+    --t: 0.3s;
+    color: #fff;
+  }
