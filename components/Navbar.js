@@ -10,7 +10,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 	};
 
 	return (
-		<div className="w-full h-12 absolute bg-transparent top-4">
+		<div className="z-10 w-full h-12 absolute bg-transparent top-4">
 			<Link href="https://github.com/jchen396">
 				<GitHubIcon
 					aria-label="GitHub"

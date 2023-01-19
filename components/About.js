@@ -3,7 +3,10 @@ import { useInView } from "react-intersection-observer";
 const About = () => {
 	const { ref: myRef, inView: myElementIsVisible } = useInView();
 	return (
-		<div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 relative">
+		<div
+			id="about"
+			className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 relative"
+		>
 			<div className="rounded lg  lg:w-1/2 w-11/12 relative">
 				<div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 				<div className="dark:bg-slate-800 bg-slate-100  sm:p-20 p-5 border-rose-300 border-2 shadow-lg shadow-green-500/50 relative">

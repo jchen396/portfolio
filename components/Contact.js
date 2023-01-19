@@ -76,7 +76,10 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14">
+		<div
+			id="contact"
+			className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14"
+		>
 			<h1 className="relative dark:text-gray-100 md:text-5xl text-4xl font-arima font-medium text-orange-800">
 				Leave a message
 			</h1>

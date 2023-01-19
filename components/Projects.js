@@ -13,7 +13,10 @@ const Projects = () => {
 	const { ref: myRef, inView: myElementIsVisible } = useInView();
 
 	return (
-		<div className="snap-start h-screen flex flex-col justify-center items-center space-y-20 relative">
+		<div
+			id="projects"
+			className="snap-start h-screen flex flex-col justify-center items-center space-y-20 relative"
+		>
 			<div className="relative lg:w-1/2 w-11/12">
 				<div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur opacity-75 animate-pulse"></div>
 

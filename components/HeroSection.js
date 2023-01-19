@@ -6,7 +6,10 @@ const HeroSection = () => {
 	const { ref: myRef, inView: myElementIsVisible } = useInView();
 
 	return (
-		<div className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black">
+		<div
+			id="home"
+			className="snap-start text-center h-screen flex flex-col justify-center items-center space-y-14 bg-black"
+		>
 			<div className="flex md:flex-row flex-col items-center space-x-20">
 				<div className="relative">
 					<Image
