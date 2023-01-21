@@ -2,7 +2,7 @@ import { useInView } from "react-intersection-observer";
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
 
-const HeroSection = () => {
+const HeroSection = ({ darkMode }) => {
 	const { ref: myRef, inView: myElementIsVisible } = useInView();
 
 	return (
@@ -19,7 +19,11 @@ const HeroSection = () => {
 						src="/icons/IMG_0815.webp"
 						alt="jackie"
 					/>
-					<div className="absolute z-10 p-6 w-0 h-0 bg-green-500 rounded-full border-[10px] border-black right-0 bottom-0"></div>
+					<div
+						className={`absolute z-10 p-6 w-0 h-0 bg-green-500 rounded-full border-[10px] ${
+							darkMode ? "border-black" : "border-[#ffffff]"
+						} right-0 bottom-0`}
+					></div>
 				</div>
 				<div className="space-y-5 relative">
 					<p className="text-xl font-medium dark:text-orange-400 text-blue-700">
@@ -54,7 +58,11 @@ const HeroSection = () => {
 				ref={myRef}
 				className={`${
 					myElementIsVisible
-						? "animate-bounce relative mt-24 border-x-[15px] border-x-transparent border-t-[20px] border-t-gray-100"
+						? `animate-bounce relative mt-24 border-x-[15px] border-x-transparent border-t-[20px] ${
+								darkMode
+									? "border-slate-100"
+									: "border-slate-900"
+						  }`
 						: "opacity-0"
 				}`}
 			></div>

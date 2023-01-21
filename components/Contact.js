@@ -62,7 +62,6 @@ const Contact = () => {
 
 			const { error } = await res.json();
 			if (error) {
-				console.log(error);
 				setShowSuccessMessage(false);
 				setShowFailureMessage(true);
 				setButtonText("Send");
@@ -72,7 +71,6 @@ const Contact = () => {
 			setShowFailureMessage(false);
 			setButtonText("Send");
 		}
-		console.log(name, email, message);
 	};
 
 	return (
