@@ -46,7 +46,7 @@ const HeroSection = ({ darkMode }) => {
 						<Typewriter
 							onInit={(typewriter) => {
 								typewriter
-									.typeString("Front-end Developer")
+									.typeString("Full-Stack Developer")
 									.pauseFor(2500)
 									.start();
 							}}

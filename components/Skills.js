@@ -195,9 +195,6 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className="lg:block hidden absolute css-ring1">
-				<div className="relative h-4 w-4 rounded-full dark:bg-blue-200 bg-black animate-orbit"></div>
-			</div>
 		</div>
 	);
 };

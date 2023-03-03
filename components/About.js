@@ -46,9 +46,6 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className="lg:block hidden absolute css-ring">
-				<div className="opacity-0 md:opacity-1 relative h-4 w-4 rounded-full dark:bg-red-200 bg-black animate-orbit"></div>
-			</div>
 		</div>
 	);
 };

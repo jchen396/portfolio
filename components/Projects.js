@@ -140,9 +140,6 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
-			<div className="lg:block hidden absolute css-ring2">
-				<div className="relative h-4 w-4 rounded-full dark:bg-green-200 bg-black animate-orbit"></div>
-			</div>
 			{toggleInfo ? (
 				<Info
 					readMoreText={readMoreText}
