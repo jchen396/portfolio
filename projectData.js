@@ -49,4 +49,13 @@ export const projectData = [
 		],
 		videoId: "9xmp575U5SE",
 	},
+	{
+		name: "ScriptOwl",
+		description: [
+			"< A video streaming platform using NextJS and AI technologies to facilitate user learning>",
+			"- Implemented AWS S3 Bucket and Cloudfront for efficient storage and delivery of media objects.",
+			"- Designed GraphQL schemas to optimize data retrieval from MongoDB and prevent unnecessary fetching.",
+			"- Integrated OpenAI's GPT 3.5 Turbo SDK to enhance learning materials with generated video transcripts.",
+		],
+	},
 ];
