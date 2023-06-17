@@ -23,21 +23,33 @@ const About = () => {
 									: "opacity-0"
 							}`}
 						>
-							I enjoy learning new technologies and bringing my
-							ideas to life in the browser. I began my web
-							development journey by learning the basics of HTML,
-							CSS, and JavaScript in 2019. Since then, I have
-							taken the opportunity to improve my skills as a web
-							developer by exploring the MERN stack. To optimize
-							my applications, I have knowledge of Algorithms and
-							Data Structures. <br />
-							My goal is to use my skills to solve everyday
-							problems and make people's lives easier.
+							I have a passion for learning new technologies and
+							transforming my ideas into tangible experiences on
+							the web. My journey as a web developer began in 2019
+							when I delved into the fundamentals of HTML, CSS,
+							and JavaScript. Since then, I have continuously
+							expanded my skill set by exploring the MERN
+							(MongoDB, Express.js, React, Node.js) stack, which
+							has empowered me to build robust and dynamic web
+							applications.
+							<br />
+							To ensure optimal performance and efficiency, I also
+							possess a strong foundation in algorithms and data
+							structures, allowing me to create optimized
+							solutions for complex problems. My ultimate goal is
+							to leverage my skills to solve real-world challenges
+							and enhance the lives of people by simplifying their
+							day-to-day tasks.
+							<br />
+							By combining my passion for learning, expertise in
+							web development technologies, and problem-solving
+							capabilities, I am dedicated to creating impactful
+							solutions that deliver exceptional user experiences.
 						</p>
 						<br className="my-5" />
 						<a
 							className="text-gray-200 text-2xl"
-							href="https://drive.google.com/file/d/18wcA65Drn1M3QMC39mpAJQWMo4vCy0CG/view"
+							href="https://drive.google.com/file/d/1biQnJ0Z2QXJkg9gU0JnAroHEjI2eLZE6/view"
 						>
 							<button className="p-3 bg-rounded bg-slate-800 border-2 border-red-200 hover:bg-slate-600">
 								View Resume
