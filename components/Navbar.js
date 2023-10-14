@@ -18,7 +18,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 					className="cursor-pointer items-center m-2 dark:bg-slate-100 rounded-full hover:opacity-30"
 				/>
 			</Link>
-			<Link href="https://www.linkedin.com/in/jackie-chen-102466240/">
+			<Link href="https://www.linkedin.com/in/jchen396/">
 				<LinkedIn
 					aria-label="LinkedIn"
 					sx={{ fontSize: 40 }}

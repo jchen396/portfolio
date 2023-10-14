@@ -17,7 +17,7 @@ const About = () => {
 						<br className="my-5" />
 						<p
 							ref={myRef}
-							className={`dark:text-slate-300 text-orange-800 tracking-wide leading-7 sm:text-xl text-lg px-0 ${
+							className={`dark:text-slate-300 text-orange-800 tracking-wide leading-7 md:text-xl sm:text-lg text-sm px-0 ${
 								myElementIsVisible
 									? "motion-safe:animate-fadeIn"
 									: "opacity-0"
